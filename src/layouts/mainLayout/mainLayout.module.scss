@@ -3,7 +3,7 @@
 }
 
 .left {
-	@apply col-span-9 px-40;
+	@apply col-span-12 lg:col-span-9 lg:px-40 px-6;
 
 	background: rgb(185, 241, 255);
 	background: linear-gradient(
@@ -14,5 +14,5 @@
 }
 
 .right {
-	@apply col-span-3 bg-black text-white;
+	@apply lg:col-span-3 lg:block hidden bg-black text-white;
 }
