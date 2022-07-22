@@ -1,0 +1,15 @@
+.education {
+	h3 {
+		@apply m-0 opacity-80 mb-2;
+	}
+	span {
+		@apply opacity-70;
+	}
+	p {
+		@apply leading-3 opacity-50 font-medium mt-3 mb-6;
+	}
+}
+
+.educationInfo {
+	@apply leading-6 mb-6 opacity-75;
+}

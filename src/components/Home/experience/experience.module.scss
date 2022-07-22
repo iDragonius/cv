@@ -1,0 +1,23 @@
+.work {
+	h3 {
+		@apply m-0 opacity-80;
+	}
+	p {
+		@apply leading-3 opacity-50 font-medium mt-3 mb-6;
+	}
+}
+
+.workInfo {
+	@apply leading-6 mb-6 opacity-75;
+}
+
+.view {
+	@apply flex items-center cursor-pointer opacity-75 mb-10;
+	span {
+		@apply mr-1;
+	}
+}
+.view:hover svg {
+	@apply ml-2;
+	transition: all 0.5s ease;
+}

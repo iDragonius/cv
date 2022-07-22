@@ -1,0 +1,13 @@
+.view {
+	@apply flex items-center cursor-pointer no-underline text-white opacity-75 mb-2;
+	a {
+		@apply m-0 mr-1;
+	}
+}
+.view:hover svg {
+	@apply ml-2;
+	transition: all 0.5s ease;
+}
+.title {
+	@apply m-0 mt-10 mb-10 font-medium opacity-50;
+}
