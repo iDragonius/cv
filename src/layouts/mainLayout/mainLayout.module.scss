@@ -13,6 +13,12 @@
 	);
 }
 
+.leftResponsive {
+	@apply hidden;
+}
 .right {
 	@apply lg:col-span-3 lg:block hidden bg-black text-white;
+}
+.rightResponsive {
+	@apply w-screen   bg-black col-span-12 text-white;
 }

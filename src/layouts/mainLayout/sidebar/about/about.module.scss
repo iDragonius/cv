@@ -9,3 +9,12 @@
 .content {
 	@apply mt-5 leading-6 opacity-90;
 }
+.responsiveContainer {
+	@apply flex justify-between items-center;
+}
+.responsiveX {
+	@apply text-xl font-bold opacity-50 lg:hidden;
+	:hover {
+		@apply opacity-100;
+	}
+}

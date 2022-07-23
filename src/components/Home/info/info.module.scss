@@ -34,3 +34,9 @@
 .infoJob {
 	@apply opacity-70 leading-3;
 }
+.infoMore {
+	@apply flex justify-between items-center;
+}
+.more {
+	@apply text-3xl lg:hidden;
+}
